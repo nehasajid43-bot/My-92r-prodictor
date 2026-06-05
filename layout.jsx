@@ -1,3 +1,7 @@
-export default function AdminLayout({ children }) {
-  return <div>{children}</div>
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  )
 }
